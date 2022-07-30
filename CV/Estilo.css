@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
+
+.cabezal{
+	display: flexbox;
+
+
+}
 .basic {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: center;
-flex-direction: row;
+
+	flex-direction: row;
+	flex: content;
+justify-content: center;
+
 
 }
 
@@ -23,7 +29,9 @@ flex-direction: row;
 	padding: 12px;
 	border-radius: 25px 0px;
 	margin: 20px;
-	
+	margin-top: 40px;
+	transition: all 0.9s;
+	flex-direction: row;
 	
 
 
@@ -39,6 +47,39 @@ flex-direction: row;
 
 .basicos:hover {
 	background-color: rgba(255, 228, 181, 0.233);
+
+}
+
+.basicos.grande {
+	position: fixed;
+	top: 0;
+	left: 90%;
+	width: auto;
+
+
+
+}
+
+.basicos.chiquitos {
+	flex:30%;
+
+
+
+}
+
+.basicos.grandes2 {
+	
+	flex:60%;
+
+
+}
+
+.basicos.grande:hover {
+	border-radius: 90%;
+	transform: scale(1.2);
+
+
+
 }
 
 body {
@@ -48,13 +89,25 @@ body {
 
 .parent {
 	text-align: center;
+	font-size: 0.5cm;
+	border: 15px;
 }
 
-.dias {
-	font-size: 1.0vw;
-	position: fixed;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	margin: auto;
+.parent.qwer {
+	text-align: left;
+
+
 }
+
+.parent h2 {
+
+	background-color: #6d641180;
+
+	margin: 0vw;
+	margin-left: 30%;
+	margin-right: 30%;
+
+
+
+}
+
