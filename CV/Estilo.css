@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 
-.cabezal{
-	display: flexbox;
 
-
-}
 .basic {
-
+	display: flex;
 	flex-direction: row;
-	flex: content;
-justify-content: center;
+	
+	justify-content: center;
 
 
 }
@@ -31,8 +27,8 @@ justify-content: center;
 	margin: 20px;
 	margin-top: 40px;
 	transition: all 0.9s;
-	flex-direction: row;
 	
+
 
 
 }
@@ -61,15 +57,15 @@ justify-content: center;
 }
 
 .basicos.chiquitos {
-	flex:30%;
+	width: 15%;
 
 
 
 }
 
 .basicos.grandes2 {
-	
-	flex:60%;
+
+	width: 50%;
 
 
 }
@@ -93,11 +89,10 @@ body {
 	border: 15px;
 }
 
-.parent.qwer {
-	text-align: left;
 
 
-}
+
+
 
 .parent h2 {
 
@@ -111,3 +106,26 @@ body {
 
 }
 
+@media screen and (max-width:1000px) {
+	.basic{
+flex-direction: column;
+
+	}
+.basicos.chiquitos{
+width: 100%;
+
+}	
+.basicos.grandes2{
+width: 100%;
+
+
+}
+.basicos.grande{
+position: relative;
+width: 100%;
+left: 0%;
+
+
+
+}
+}
