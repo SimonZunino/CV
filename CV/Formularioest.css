@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+body {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+div {
+  justify-content: center;
+  text-decoration-color: rgb(0, 0, 0);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  background-color: #fbda6152;
+  background-image: linear-gradient(45deg, #fbda615b 0%, #ff5ace8c 100%);
+  border-radius: 24px 24px 24px 94px;
+  -webkit-border-radius: 24px 24px 24px 94px;
+  -moz-border-radius: 24px 24px 24px 94px;
+  font-family: 'Oswald', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.74);
+  padding: 15px;
+  margin: 15px;
+}
+.clase2 {
+  border-radius: 0px 24px 24px 94px;
+  -webkit-border-radius: 24px 24px 24px 94px;
+  -moz-border-radius: 24px 24px 24px 94px;
+  border: 1px solid rgba(0, 0, 0, 0.65);
+}
+p {
+  text-align: right;
+}
+button {
+  float: right;
+}
